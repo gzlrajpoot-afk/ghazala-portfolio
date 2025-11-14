@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ghazala Portfolio</title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background: #000; color: #fff; line-height: 1.6; }
+    .container { max-width: 1000px; margin: auto; padding: 20px; }
+    header { display:flex; flex-direction: column; justify-content:center; align-items:center; height:100vh; text-align:center; }
+    header h1 { font-size:80px; color:#4f46e5; letter-spacing:5px; }
+    header p { font-size:24px; color:#ccc; margin-top:10px; }
+    section { padding:60px 20px; }
+    section h2 { font-size:36px; text-align:center; margin-bottom:40px; color:#4f46e5; }
+    .projects { display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap:20px; }
+    .card { background:#111; padding:20px; border-radius:12px; box-shadow:0 6px 18px rgba(0,0,0,0.6); transition: transform 0.3s; }
+    .card:hover { transform: translateY(-5px); }
+    .card h3 { margin-bottom:10px; color:#fff; }
+    .card p { color:#ccc; }
+    .contact p { text-align:center; margin:10px 0; }
+    .contact a { color:#4f46e5; text-decoration:none; }
+    footer { text-align:center; padding:20px; background:#111; color:#777; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ghazala</h1>
+    <p>Front-End Developer | Final Project Portfolio</p>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hello! I am Ghazala, a Front-End Development student. This is my final project showcasing my skills in HTML, CSS, JavaScript, and React.js. The website includes examples of my projects and contact information.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="card">
+          <h3>Weather App</h3>
+          <p>Realtime weather lookup by city. Built using JavaScript and APIs.</p>
+        </div>
+        <div class="card">
+          <h3>Todo List</h3>
+          <p>Manage your daily tasks efficiently with add, edit, and delete features.</p>
+        </div>
+        <div class="card">
+          <h3>Portfolio</h3>
+          <p>Personal portfolio showcasing skills and contact information professionally.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:ghazala@example.com">ghazala@example.com</a></p>
+      <p>Course: Front-End Development</p>
+      <p>Mentor: Sir Abdul Qayyum Waseem Khan</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Ghazala — Front-End Final Project
+  </footer>
+</body>
+</html>
